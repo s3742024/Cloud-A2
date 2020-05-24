@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// Disclaimer: This is an university assignment application that 
+//             is developed based on the booktshelf tutorial provided by google cloud. 
+-->
+<phpunit bootstrap="vendor/autoload.php" convertWarningsToExceptions="false">
+   
+    <php>
+        <env name="PHPUNIT_TESTS" value="1"/>
+        <env name="APP_ENV" value="test"/>
+        <env name="APP_DEBUG" value="true"/>
+    </php>
+</phpunit>
